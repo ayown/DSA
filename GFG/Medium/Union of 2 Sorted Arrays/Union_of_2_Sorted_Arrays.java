@@ -20,12 +20,12 @@ class Solution {
             }
         }
 
-        while (i < n) {
+        while (i < n) { //agr j khatam hogya hai toh
             addIfNotDuplicate(res, a[i]);
             i++;
         }
 
-        while (j < m) {
+        while (j < m) {  //agr i khatam hogya h toh
             addIfNotDuplicate(res, b[j]);
             j++;
         }
