@@ -20,12 +20,12 @@ class Solution {
             }
         }
 
-        while (i < n) { //agr j khatam hogya hai toh
+        while (i < n) {   //agr b[] array khatam hogya hai toh -> a[] ko toh phir bhi push krna hoga na
             addIfNotDuplicate(res, a[i]);
             i++;
         }
 
-        while (j < m) {  //agr i khatam hogya h toh
+        while (j < m) {    //agr a[] array khatam hogya hai toh -> b[] ko toh phir bhi push krna hoga na
             addIfNotDuplicate(res, b[j]);
             j++;
         }
@@ -39,3 +39,4 @@ class Solution {
         }
     }
 }
+
